@@ -6,6 +6,14 @@ All runs are in 10_DanLagria_COSC4p69
 the previous are bugged or hard to work with
 Indent may be weird, due to use of google collab since it was used to run it in parallel
 
+In the file
+- At the very top, change the weight size:
+    - 10% for all related data
+        - comment out train method Z_score and uncomment Min_max for those results
+          Note: Minmax is not used at or during stage 2 f, restore to original to work as intended
+    - That's it, learning rate and and others are in their own isolated test to get a feel 
+      or resuluts and optimize before seed testing
+
 Requirements:
 - Tensor flow
 - Numpy
