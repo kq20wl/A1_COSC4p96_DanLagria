@@ -9,3 +9,6 @@ Indent may be weird, due to use of google collab since it was used to run it in 
 Requirements:
 - Tensor flow
 - Numpy
+
+Or just run it in google collab, which works as well, just remeber to upload the cifar data
+also available in github @ https://github.com/kq20wl/A1_COSC4p96_DanLagria
